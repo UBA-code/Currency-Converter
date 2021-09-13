@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-color: #feeb3b;
+}
+.card {
+  height: 100vh;
+}
+.card form {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+form [name="dollar"] {
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 1px solid;
+  margin-bottom: 20px;
+  font-weight: 100;
+  border: 1px solid #009688;
+  color: #009688;
+  font-size: 15px;
+}
+form [name="dollar"]::placeholder {
+  color: #009688;
+}
+form [name="dollar"]:focus {
+  outline: none;
+  box-shadow: 0 0 10px -1px #009688;
+  transition: 0.3s;
+}
+.card form .result {
+  color: #607d8b;
+  font-weight: 300;
+}
+.card .result-area {
+  display: flex;
+}
+.card .result-area .result {
+  margin-right: 20px;
+}
